@@ -43,3 +43,10 @@ rules:
       - subjectaccessreviews
     verbs:
       - "*"
+  - apiGroups:
+      - cluster.core.oam.dev
+    resources:
+      - clustergateways/proxy
+      - clustergateways/health
+    verbs:
+      - "*"
